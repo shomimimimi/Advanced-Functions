@@ -5,16 +5,40 @@
   body {background-color: aliceblue;}
   h1 {colour: midnightblue;}
 </style>
-<title>Page Title</title>
-</head>
+<title>MHF4U CCT</title>
+</head>  
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Optional: Basic styling to make the iframe fill the screen */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars if only the graph is displayed */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        iframe {
+            border: none; /* Remove the default iframe border */
+            width: 80%; /* Set the width */
+            height: 500px; /* Set the height */
+            margin-top: 20px; /* Add some space above the graph */
+        }
+    </style>
 
-  <iframe src="https://www.desmos.com/calculator/tlmpdorrkq?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0>
+    <h1>Function 1: Sinusoidal Function</h1>
     
-  </iframe>
-
+    <iframe 
+        src="https://www.desmos.com/calculator/i2ha4kfclv" 
+        title="Desmos Graph of Dodecahedron"
+        allowfullscreen
+    ></iframe>
+    
+    <p>You can interact with the graph above directly on this page.</p>
+  
 </body>
 </html>
